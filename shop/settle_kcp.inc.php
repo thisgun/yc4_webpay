@@ -1,6 +1,9 @@
 <?
 if (!defined("_GNUBOARD_")) exit; // 개별 페이지 접근 불가 
 
+include("./settle_kcp.web.standard.inc.php");
+return;
+
 $test = "";
 if ($default['de_card_test']) {
     if ($default['de_escrow_use'] == 1) { 
